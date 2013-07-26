@@ -8,7 +8,7 @@ endif()
 
 # set default configuration directory
 if( NOT CONF_DIR )
-  set(CONF_DIR ${CMAKE_INSTALL_PREFIX}/server/etc)
+  set(CONF_DIR ${CMAKE_INSTALL_PREFIX}/server1/etc)
   message(STATUS "UNIX: Using default configuration directory")
 endif()
 
